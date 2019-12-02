@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section  class = "wrapper">
+        <div class = "home-cat">
+            <img src="img/cat-tamagotchi.jpg" alt="cat-tamagotchi">
+        </div>
+        <div class="display">
+            <form class="style-form" action="">
+                <input id = "btn_food" type="button" value="food">
+                <input id = "btn_clean" type="button" value="clean">
+                <input id = "btn_happiness" type="button" value="happiness">
+            </form>
+            <div class="style-meter">
+                <p>food</p>
+                <meter id ="food" min="0" max="100" low="25" high="75" value="0"></meter>
+                <p>clean</p>
+                <meter id ="clean" min="0" max="100" low="25" high="75"  value="0"></meter>
+                <p>happiness</p>
+                <meter id ="happiness" min="0" max="100" low="25" high="75"  value="0"></meter>
+            </div>
+        </div>
+    </section>
+<script src ="js/main.js"></script>
+</body>
+</html>
